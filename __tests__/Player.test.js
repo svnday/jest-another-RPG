@@ -51,7 +51,7 @@ test('checks if player is alive or not', () => {
 });
 
 test("subtracts from player's health", () => {
-    const player = new Player ('Dave');
+    const player = new Player('Dave');
     const oldHealth = player.health;
 
     player.reduceHealth(5);
